@@ -20,6 +20,6 @@ steps:
     location: 'Japan East'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName [EnterAProjectName] -linkedTemplateUri [EnterTheLinkedTemplateURL]'
+    overrideParameters: '-projectName AzureTest-repo -linkedTemplateUri https://github.com/masish/AzureTest-repo'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
